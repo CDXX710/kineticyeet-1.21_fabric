@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "kineticyeet",
+	"version": "${version}",
+	"name": "KineticYeet",
+	"description": "Elytra's kinetic damage reduction.",
+	"authors": [
+		"CDXX"
+	],
+	"contact": {},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/kineticyeet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cdxx.kineticyeet.KineticYeet"
+		]
+	},
+	"mixins": [
+		"kineticyeet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "DiggingRing"
+	}
+}
